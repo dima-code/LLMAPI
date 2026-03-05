@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "LLMAPI",
-    platforms: [.macOS(.v13), .linux],
+    platforms: [.macOS(.v13)],
     products: [
         .executable(name: "Run", targets: ["Run"]),
     ],
